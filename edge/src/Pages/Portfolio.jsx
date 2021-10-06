@@ -3,12 +3,12 @@ import "./EdgeServices.modules.css";
 import Group from "../Assets/Images/Group.png";
 function Portfolio() {
   return (
-    <div className="Services" id="Fortfolio">
+    <div className="Services" id="Carrers">
       <div className="Serv-photo-div port">
         <img src={Group} alt="christina-port" />
       </div>
       <div className="servcice-mat ">
-        <p className="abt-frst edge-head">Portfolio</p>
+        <p className="abt-frst edge-head">Carrers</p>
         <h2>
           Become an Industry <span>Professional</span>
         </h2>

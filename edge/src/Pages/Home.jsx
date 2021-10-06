@@ -7,6 +7,8 @@ import About from "./About";
 import EdgeServices from "./EdgeServices";
 import Portfolio from "./Portfolio";
 import Carrers from "./Carrers";
+import Servfeatures from "./Servfeatures";
+import StatTalk from "./StatTalk";
 export default function Home() {
   return (
     <div className="Home">
@@ -14,8 +16,10 @@ export default function Home() {
       <HomeContent />
       <About />
       <EdgeServices />
+      <Servfeatures />
       <Carrers />
       <Portfolio />
+      <StatTalk />
     </div>
   );
 }
