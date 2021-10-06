@@ -12,6 +12,7 @@ import StatTalk from "./StatTalk";
 import Contact from "./Contact";
 import Email from "./Email";
 import Footer from "./Footer";
+import CarouselContainer from "./CarouselContainer";
 export default function Home() {
   return (
     <div className="Home">
@@ -25,7 +26,7 @@ export default function Home() {
       <StatTalk />
       <Contact />
       <Email />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
