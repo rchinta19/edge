@@ -9,6 +9,9 @@ import Portfolio from "./Portfolio";
 import Carrers from "./Carrers";
 import Servfeatures from "./Servfeatures";
 import StatTalk from "./StatTalk";
+import Contact from "./Contact";
+import Email from "./Email";
+import Footer from "./Footer";
 export default function Home() {
   return (
     <div className="Home">
@@ -20,6 +23,9 @@ export default function Home() {
       <Carrers />
       <Portfolio />
       <StatTalk />
+      <Contact />
+      <Email />
+      <Footer/>
     </div>
   );
 }
