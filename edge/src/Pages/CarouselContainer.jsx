@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Carousel } from "react-bootstrap/";
+import { Carousel } from "react-bootstrap";
 import "./carousel.module.css";
 import image1 from "./../Assets/Images/1.png.png";
 import image2 from "./../Assets/Images/2.png.png";
@@ -25,21 +25,21 @@ const CarouselContainer = (props) => {
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={image1} alt="First slide" />
         <Carousel.Caption>
-          <h3>Let Your Vision Take You The Distance</h3>
-          <button>Get Started</button>
-        </Carousel.Caption> 
+          <h3 className="corh3">Let Your Vision Take You The Distance</h3>
+          <button onClick={carasoleHandler}>Get Started</button>
+        </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={image2} alt="Third slide" />
         <Carousel.Caption>
-          <h3>Let Your Vision Take You The Distance</h3>
-          <button>Get Started</button>
+          <h3 className="corh3">Let Your Vision Take You The Distance</h3>
+          <button onClick={carasoleHandler}>Get Started</button>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item interval={2000}>
         <img className="d-block w-100" src={image3} alt="Third slide" />
         <Carousel.Caption>
-          <h3>Let Your Vision Take You The Distance</h3>
+          <h3 className="corh3">Let Your Vision Take You The Distance</h3>
           <button onClick={carasoleHandler}>Get Started</button>
         </Carousel.Caption>
       </Carousel.Item>

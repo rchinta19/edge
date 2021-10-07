@@ -16,6 +16,7 @@ export default function Servfeatures() {
         <div>
           <img src={gp3} />
           <h1>Staff Augmentation</h1>
+
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tLorem ipsum, or lipsum as it is sometimes known, is dummy
@@ -23,7 +24,7 @@ export default function Servfeatures() {
             is attributed to an unknown typesetter in the 15th century who is
             thought to have.
           </p>
-          <button>read more</button>
+          <button className="bttns servbtn">read more</button>
         </div>
         <div>
           <img src={gp} />
@@ -35,7 +36,7 @@ export default function Servfeatures() {
             is attributed to an unknown typesetter in the 15th century who is
             thought to have.
           </p>
-          <button>read more</button>
+          <button className="bttns servbtn">read more</button>
         </div>
         <div>
           <img src={cld} />
@@ -47,7 +48,7 @@ export default function Servfeatures() {
             is attributed to an unknown typesetter in the 15th century who is
             thought to have.
           </p>
-          <button>read more</button>
+          <button className="bttns servbtn">read more</button>
         </div>
       </div>
       <div>
@@ -61,7 +62,7 @@ export default function Servfeatures() {
             is attributed to an unknown typesetter in the 15th century who is
             thought to have.
           </p>
-          <button>read more</button>
+          <button className="bttns servbtn">read more</button>
         </div>
         <div>
           <img src={mec} />
@@ -73,7 +74,7 @@ export default function Servfeatures() {
             is attributed to an unknown typesetter in the 15th century who is
             thought to have.
           </p>
-          <button>read more</button>
+          <button className="bttns servbtn">read more</button>
         </div>
         <div>
           <img src={gp3} />
@@ -85,7 +86,7 @@ export default function Servfeatures() {
             is attributed to an unknown typesetter in the 15th century who is
             thought to have.
           </p>
-          <button>read more</button>
+          <button className="bttns servbtn">read more</button>
         </div>
       </div>
     </div>
