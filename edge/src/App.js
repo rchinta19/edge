@@ -1,16 +1,26 @@
 import "./App.css";
-import Home from "./Pages/Home";
 import { useState } from "react";
-import CarouselContainer from "./Pages/CarouselContainer";
+import NavElement from "./Components/NavElement/NavElement";
+import HomePage from "./Components/Pages/HomePage";
+import AboutPage from "./Components/Pages/AboutPage";
+import Services from "./Components/Pages/Services";
+import TrainingConsult from "./Components/Pages/TrainingConsult";
+import Portfolio from "./Components/Pages/Portfolio";
+import Carrers from "./Components/Pages/Carrers";
+import ContactPage from "./Components/Pages/ContactPage";
+import ContactThrough from "./Components/Pages/ContactThrough";
 function App() {
-  const [x, setx] = useState(true);
-  const carosualHandler = (value) => {
-    setx(value);
-  };
-
   return (
     <div className="App">
-      {x ? <CarouselContainer hand={carosualHandler} /> : <Home />}
+      <NavElement />
+      <HomePage />
+      <AboutPage />
+      <Services />
+      <TrainingConsult />
+      <Portfolio />
+      <Carrers />
+      <ContactPage />
+      <ContactThrough />
     </div>
   );
 }

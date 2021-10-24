@@ -1,17 +1,15 @@
 :root {
   --poppinsSemi: "Poppins", sans-serif;
-  --abril-font: "Abril Fatface", cursive;
-  --headfontsize: 54px;
-  --headcolor: #313073;
-  --headred: #cb2229;
-  --h2fontsize: 28px;
-  --morefont:"Poppins", sans-serif;
-  --moreColor:#005FFF;
-  --moreSize:14px;
-  --robo:'Roboto', sans-serif;
-  --roboSize:18px;
+  --abrilHeading: "Abril Fatface", cursive;
+  --abrilHeadingColor: #313073;
+  --abrilheadingSize: 40px;
+  --abrilRedColor: #cb2229;
+  --robotoRegular: "Roboto", sans-serif;
+  --robotoRegularSize: 18px;
 }
-body {
+
+body,
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
